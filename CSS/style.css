@@ -37,10 +37,6 @@ body{
     text-align: start;
 }
 
-/* .body-container *{
-    margin: 10px 0;
-} */
-
 body h2, h3{
     letter-spacing: 2px;
     font-family: monospace;

@@ -19,13 +19,10 @@ const userKm = parseInt(prompt("Quanti Km si devono percorrere? Inserire un nume
 const userAge = parseInt(prompt("Quanti anni ha il passeggero? Inserire un numero intero:"));
 const pricePerKm = 0.21;
 
-// const underage = 0 < userAge < 18;
-// const adult = userAge >= 18;
-// console.log(parseInt(underage));
-
 let kmRate = userKm * 0.21;
 console.log(kmRate);
 
+// OUTPUT
 if (userAge < 18){
     kmRate = (kmRate - (20 / 100 * kmRate)).toFixed(2);
     document.getElementById("user-distance").innerHTML = userKm;
